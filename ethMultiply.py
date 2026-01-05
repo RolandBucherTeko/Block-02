@@ -4,6 +4,6 @@ def ethiopian_multiply(a, b):
     while a > 0:
         if a % 2 != 0:
             result += b
-        a = a // 2      
+        a = a // 2        #ganzzahlige Division 
         b = b * 2
     return result
